@@ -1,0 +1,199 @@
+<!DOCTYPE html><html lang="en" style=""><head>
+<meta charset="utf-8">
+<meta content="width=device-width, initial-scale=1.0" name="viewport">
+<title>首页 - 数字策展版 (Digital Curation)</title>
+<script src="assets/js/tailwind.js"></script>
+<link href="assets/fonts/material-symbols-outlined.css" rel="stylesheet">
+<link href="assets/fonts/geist.css" rel="stylesheet">
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    "colors": {
+                        "surface-container-high": "#e7e8e9",
+                        "on-secondary-fixed": "#131e17",
+                        "on-error-container": "#93000a",
+                        "secondary-fixed": "#d9e6da",
+                        "surface-dim": "#d9dadb",
+                        "secondary": "#556158",
+                        "on-secondary-fixed-variant": "#3e4a41",
+                        "secondary-container": "#d9e6da",
+                        "surface-container-low": "#f3f4f5",
+                        "on-surface": "#191c1d",
+                        "surface-variant": "#e1e3e4",
+                        "tertiary-fixed": "#a3f69c",
+                        "primary": "#006e0d",
+                        "on-primary-fixed-variant": "#005307",
+                        "surface-bright": "#f8f9fa",
+                        "inverse-surface": "#2e3132",
+                        "outline-variant": "#bccbb4",
+                        "tertiary": "#1b6d24",
+                        "inverse-on-surface": "#f0f1f2",
+                        "surface-tint": "#006e0d",
+                        "on-primary": "#ffffff",
+                        "surface-container-lowest": "#ffffff",
+                        "outline": "#6d7b67",
+                        "inverse-primary": "#4de249",
+                        "on-tertiary-container": "#003d0b",
+                        "tertiary-fixed-dim": "#88d982",
+                        "on-primary-container": "#003d04",
+                        "on-primary-fixed": "#002201",
+                        "primary-container": "#00b51d",
+                        "surface-container-highest": "#e1e3e4",
+                        "tertiary-container": "#5ead5c",
+                        "background": "#f8f9fa",
+                        "on-secondary-container": "#5b675e",
+                        "primary-fixed": "#75ff69",
+                        "surface-container": "#edeeef",
+                        "error-container": "#ffdad6",
+                        "on-tertiary-fixed": "#002204",
+                        "on-error": "#ffffff",
+                        "secondary-fixed-dim": "#bdcabe",
+                        "error": "#ba1a1a",
+                        "on-surface-variant": "#3d4a39",
+                        "on-tertiary-fixed-variant": "#005312",
+                        "on-secondary": "#ffffff",
+                        "surface": "#f8f9fa",
+                        "on-background": "#191c1d",
+                        "primary-fixed-dim": "#4de249",
+                        "on-tertiary": "#ffffff"
+                    },
+                    "borderRadius": {
+                        "DEFAULT": "1rem",
+                        "lg": "2rem",
+                        "xl": "3rem",
+                        "full": "9999px"
+                    },
+                    "spacing": {
+                        "section-gap": "120px",
+                        "unit": "8px",
+                        "margin-mobile": "20px",
+                        "container-max": "1200px",
+                        "gutter": "32px"
+                    },
+                    "fontFamily": {
+                        "headline-lg": ["Geist"],
+                        "body-md": ["Geist"],
+                        "display-lg": ["Geist"],
+                        "display-lg-mobile": ["Geist"],
+                        "label-md": ["Geist"],
+                        "headline-md": ["Geist"],
+                        "body-lg": ["Geist"]
+                    },
+                    "fontSize": {
+                        "headline-lg": ["32px", { "lineHeight": "40px", "letterSpacing": "-0.01em", "fontWeight": "500" }],
+                        "body-md": ["16px", { "lineHeight": "24px", "fontWeight": "400" }],
+                        "display-lg": ["64px", { "lineHeight": "72px", "letterSpacing": "-0.02em", "fontWeight": "600" }],
+                        "display-lg-mobile": ["40px", { "lineHeight": "48px", "letterSpacing": "-0.02em", "fontWeight": "600" }],
+                        "label-md": ["14px", { "lineHeight": "20px", "letterSpacing": "0.02em", "fontWeight": "600" }],
+                        "headline-md": ["24px", { "lineHeight": "32px", "fontWeight": "500" }],
+                        "body-lg": ["18px", { "lineHeight": "28px", "fontWeight": "400" }]
+                    }
+                }
+            }
+        }
+    </script>
+<style>
+        body { font-family: 'Geist', sans-serif; }
+        .glass-nav { backdrop-filter: blur(16px); -webkit-backdrop-filter: blur(16px); }
+        .organic-shape-1 { border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%; }
+        .organic-shape-2 { border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%; }
+        .smooth-shadow { box-shadow: 0 20px 40px rgba(0, 110, 13, 0.03); }
+    </style>
+<link href="assets/fonts/playfair-display.css" rel="stylesheet"></head>
+<body class="bg-background text-on-background min-h-screen flex flex-col antialiased selection:bg-primary-container selection:text-on-primary-container md:flex">
+<!-- TopNavBar -->
+<nav class="fixed top-0 left-0 w-full flex flex-row justify-between items-center px-12 py-6 z-50 bg-surface/80 backdrop-blur-md border-b border-outline-variant/30"><div class="font-headline-md text-primary font-bold">Jenny</div><div class="flex flex-row gap-12 items-center"><a class="font-label-md text-primary hover:opacity-50 transition-all" href="index.html">Home</a><a class="font-label-md text-secondary hover:text-primary transition-all" href="career.html">Career</a><a class="font-label-md text-secondary hover:text-primary transition-all" href="#">Vision</a><a class="font-label-md text-secondary hover:text-primary transition-all" href="#">Lifestyle</a></div><a class="text-secondary hover:text-primary transition-colors" href="https://www.linkedin.com/in/jiangyuanyuan" target="_blank" rel="noopener"><svg fill="currentColor" height="20" viewBox="0 0 24 24" width="20" xmlns="http://www.w3.org/2000/svg"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"></path></svg></a></nav>
+<!-- Main Content -->
+<main class="flex-grow md:pt-[120px] pt-24"><section class="relative min-h-screen flex items-center md:pl-24">
+<div class="max-w-[1400px] mx-auto grid grid-cols-1 lg:grid-cols-12 gap-0 px-margin-mobile md:px-gutter">
+<div class="lg:col-span-6 relative flex items-center order-2 lg:order-1">
+<div class="relative w-full aspect-[4/5] transform lg:-rotate-3 transition-transform hover:rotate-0 duration-700">
+<div class="absolute inset-0 organic-shape-2 overflow-hidden bg-surface-container-highest border border-surface-variant">
+<img alt="Jenny Jiang Portrait" class="w-full h-full object-cover opacity-90 mix-blend-multiply" src="assets/images/jenny-portrait.jpg">
+</div>
+</div>
+</div>
+<div class="lg:col-span-6 flex flex-col justify-center space-y-12 py-20 order-1 lg:order-2 lg:pl-16">
+
+<h1 class="text-[60px] md:text-[96px] leading-[0.9] text-on-surface" style="font-family: &quot;Playfair Display&quot;, serif;">
+                Defining the Future of <br><span class="text-transparent bg-clip-text bg-gradient-to-r from-primary to-tertiary-container">Education</span></h1>
+<p class="font-body-lg text-body-lg text-on-surface-variant max-w-md italic border-l-2 border-primary/20 pl-6">
+                Synthesizing professional rigor with organic, life-centric design. Bridging the gap between complex technological ecosystems and deeply human experiences.
+            </p>
+<button class="w-fit px-12 py-5 rounded-full bg-primary text-on-primary font-label-md hover:bg-primary-container hover:text-on-primary-container transition-all flex items-center gap-4">
+                Meet Jenny&nbsp;<span class="material-symbols-outlined">arrow_forward</span>
+</button>
+</div>
+</div>
+</section>
+<section class="py-section-gap bg-surface-container-low/30">
+<div class="max-w-container-max mx-auto px-margin-mobile md:px-gutter">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-12 mb-32">
+<div class="lg:col-span-4">
+<h2 class="text-5xl md:text-7xl text-on-surface leading-tight mb-8" style="font-family: &quot;Playfair Display&quot;, serif;">15 Years of <br><span class="italic">Excellence</span></h2>
+</div>
+<div class="lg:col-span-8 flex items-start pt-4">
+<p class="font-body-lg text-secondary max-w-xl">A legacy of shaping user experiences across top-tier technology platforms, blending commercial strategy with intuitive interaction design.</p>
+</div>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+<div class="group relative p-8 rounded-2xl bg-surface-container-highest/30 border border-outline-variant/20 hover:border-primary/30 transition-all">
+<div class="w-12 h-12 rounded-full flex items-center justify-center mb-6 bg-secondary-container/50">
+<span class="material-symbols-outlined text-primary">shopping_bag</span>
+</div>
+<h3 class="text-3xl font-bold text-on-surface mb-4" style="font-family: &quot;Playfair Display&quot;, serif;">Taobao</h3>
+<p class="font-body-md text-secondary leading-relaxed">Pioneered e-commerce interactions for millions of users, focusing on conversion-driven yet delightful UI patterns.</p>
+</div>
+<div class="group relative p-8 rounded-2xl bg-surface-container-highest/30 border border-outline-variant/20 hover:border-primary/30 transition-all">
+<div class="w-12 h-12 rounded-full bg-secondary-container/50 flex items-center justify-center mb-6">
+<span class="material-symbols-outlined text-primary">public</span>
+</div>
+<h3 class="text-3xl font-bold text-on-surface mb-4" style="font-family: &quot;Playfair Display&quot;, serif;">Shopee</h3>
+<p class="font-body-md text-secondary leading-relaxed">Led regional design initiatives, localizing complex flows while maintaining a unified, playful brand identity across SEA.</p>
+</div>
+<div class="group relative p-8 rounded-2xl bg-primary/5 border border-primary/10 hover:border-primary/30 transition-all">
+<div class="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center mb-6">
+<span class="material-symbols-outlined text-primary">local_library</span>
+</div>
+<h3 class="text-3xl font-bold text-primary mb-4" style="font-family: &quot;Playfair Display&quot;, serif;">Douban</h3>
+<p class="font-body-md text-on-surface-variant italic leading-relaxed">Cultivated a rich, community-driven aesthetic. Balanced dense information architecture with a clean, bookish minimalism.</p>
+</div>
+<div class="group relative p-8 rounded-2xl bg-surface-container-highest/30 border border-outline-variant/20 hover:border-primary/30 transition-all">
+<div class="w-12 h-12 rounded-full bg-secondary-container/50 flex items-center justify-center mb-6">
+<span class="material-symbols-outlined text-primary">currency_bitcoin</span>
+</div>
+<h3 class="text-3xl font-bold text-on-surface mb-4" style="font-family: &quot;Playfair Display&quot;, serif;">OKX</h3>
+<p class="font-body-md text-secondary leading-relaxed">Brought clarity and trust to Web3. Streamlined complex financial dashboards into intuitive interfaces for global users.</p>
+</div>
+</div>
+</div>
+</section></main>
+<!-- Footer -->
+<footer class="w-full py-section-gap bg-surface-container-low dark:bg-surface-container-lowest transition-all duration-200">
+<div class="flex flex-col md:flex-row justify-between items-center max-w-container-max mx-auto px-margin-mobile md:px-gutter">
+<div class="mb-6 md:mb-0 text-center md:text-left">
+<div class="font-headline-md text-headline-md font-bold text-primary dark:text-primary-fixed mb-2">
+                    Jenny</div>
+<div class="font-body-md text-body-md text-secondary dark:text-secondary-fixed-dim">
+                    © 2024 All rights reserved.
+                </div>
+</div>
+<div class="flex space-x-6">
+<a class="font-body-md text-body-md text-secondary dark:text-secondary-fixed-dim hover:text-primary transition-colors flex items-center gap-2" href="#">
+<span class="material-symbols-outlined text-[20px]">mail</span>
+                    Email
+                </a>
+<a class="font-body-md text-body-md text-secondary dark:text-secondary-fixed-dim hover:text-primary transition-colors flex items-center gap-2" href="https://www.linkedin.com/in/jiangyuanyuan" target="_blank" rel="noopener">
+<span class="material-symbols-outlined text-[20px]">work</span>
+                    LinkedIn
+                </a>
+</div>
+</div>
+</footer>
+
+
+
+
+</body></html>
